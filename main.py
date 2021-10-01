@@ -643,21 +643,6 @@ async def gstart(ctx):
   users.pop(users.index(client.user))
   winner = random.choice(users)
 
-  # await channel.send(f"Congratulation's! {winner.mention} won {price}!")
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
 @client.event
 async def on_ready():
 	print('Logged in as')
